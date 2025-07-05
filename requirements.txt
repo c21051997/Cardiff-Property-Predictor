@@ -1,0 +1,15 @@
+beautifulsoup4
+folium
+geopandas
+ipykernel
+joblib
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+scipy
+seaborn
+selenium
+streamlit
+xgboost
