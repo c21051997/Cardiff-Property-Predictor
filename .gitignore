@@ -1,0 +1,3 @@
+# Ignore data and model files
+data/
+model/

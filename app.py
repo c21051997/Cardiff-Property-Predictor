@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # --- Load the Saved Model and Columns ---
-model = joblib.load('property_price_predictor.pkl')
-model_columns = joblib.load('model_columns.pkl')
+model = joblib.load('model/property_price_predictor.pkl')
+model_columns = joblib.load('model/model_columns.pkl')
 
 # --- App Title and Description ---
 st.title(' Cardiff Property Price Predictor')
