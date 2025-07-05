@@ -2,7 +2,7 @@
 
 An end-to-end data science project that predicts property prices in Cardiff, UK. The project scrapes real-world data from Rightmove, cleans and processes it, and trains a machine learning model to make predictions. The final model is deployed as an interactive web application using Streamlit.
 
-**Live Application URL:** _Click here to view the deployed app!_ 👈
+**https://cardiff-property-predictor-22opa4fr63radqxpvbzdrq.streamlit.app/#enter-property-details** _Click here to view the deployed app!_ 👈
 
 ---
 
@@ -69,17 +69,21 @@ The chart below shows which factors the XGBoost model considered most important 
 **Clone the repository:**
 ```bash
 git clone https://github.com/your-username/cardiff-property-predictor.git
-cd cardiff-property-predictor```
+cd cardiff-property-predictor
+```
 
 **Create and activate a virtual environment:**
 ```bash
 python3 -m venv venv
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 **Install the required packages:**
 ```bash 
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 **Run the Streamlit application:**
 ```bash 
-streamlit run app.py```
+streamlit run app.py
+```
