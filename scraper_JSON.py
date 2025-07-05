@@ -104,7 +104,7 @@ if __name__ == '__main__':
     
     if not df.empty:
         # Save the final, enriched dataset
-        df.to_csv('cardiff_properties_enriched.csv', index=False)
+        df.to_csv('model/cardiff_properties_enriched.csv', index=False)
         print(f"\n✅ Scraping complete! Found {len(df)} properties.")
         print("Data saved to cardiff_properties_enriched.csv")
     else:
